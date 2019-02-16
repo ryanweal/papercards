@@ -37,7 +37,7 @@ const puppeteer = require('puppeteer-core');
   const moon = await page.evaluate(moon_el => moon_el.textContent, moon_el);
 
   // render this thing!
-  await page.goto('http://localhost:3082/weather?temp=' + temp + '&locale=Montr%C3%A9al&prediction=' + pre + '&date=' + date + '&sun=' + sun  + '&moon=' + moon);
+  await page.goto('http://localhost:80/weather?temp=' + temp + '&locale=Montr%C3%A9al&prediction=' + pre + '&date=' + date + '&sun=' + sun  + '&moon=' + moon);
   await page.screenshot({path: 'output/weather.png', clip: { x:0, y:0, width: 128, height: 250} });
   await browser.close();
 
