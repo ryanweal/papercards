@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "Make sure nginx or another server is running on port 80 and serving the static cards/dist folder"
-
 node render/weather.js
 convert output/weather.png -depth 1  ppm:- | pnmdepth 1 | ppmtobmp >output/weather.bmp
 

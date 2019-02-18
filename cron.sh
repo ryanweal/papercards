@@ -1,5 +1,8 @@
 #!/bin/bash
 
+killall node
+killall chromium-browser
+
 # nvm installs this in .bashrc which doesn't run for non-interactive mode consoles
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
