@@ -1,0 +1,16 @@
+[
+  {
+    "name": "weather",
+    "path": "/weather",
+    "component": "/home/rcw/projects/papercards/cards/pages/weather.vue",
+    "chunkName": "pages/weather",
+    "_name": "_3c5a5732"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/rcw/projects/papercards/cards/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0971cae0"
+  }
+]
