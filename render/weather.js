@@ -1,6 +1,6 @@
 'use strict';
 
-const localURL = 'http://localhost:80';
+const localURL = 'http://localhost:5000';
 const canadaWeatherURL = 'https://meteo.gc.ca/city/pages/qc-14_metric_f.html';
 
 const puppeteer = require('puppeteer-core');

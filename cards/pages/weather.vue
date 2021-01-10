@@ -7,7 +7,7 @@
       <div style="font-size: 32px; margin-top: 3px; text-align: center;">
         {{ this.$route.query.temp}}
       </div>
-      <div v-if="this.$route.query.humidex" style="font-size: 14px; margin-top: 3px; text-align: center;">
+      <div style="font-size: 14px; margin-top: 3px; text-align: center;">
         Humidex {{ this.$route.query.humidex}}°C
       </div>
       <div style="font-size: 12px; margin-top: 3px; text-align: center;">
